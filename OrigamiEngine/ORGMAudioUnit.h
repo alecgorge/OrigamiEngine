@@ -27,9 +27,9 @@
 #import "ORGMQueues.h"
 
 // default reading chunk size
-#define CHUNK_SIZE 16 * 1024
+#define CHUNK_SIZE 16 * 1024 * 4
 // deault buffer size
-#define BUFFER_SIZE 256 * 1024
+#define BUFFER_SIZE 256 * 1024 * 4
 
 /**
  Specifies format of the PCM output
